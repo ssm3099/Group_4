@@ -1,0 +1,65 @@
+
+body {
+    margin: 0px 30px 0px 30px;
+}
+
+header{
+    background: rgb(181, 128, 128); 
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    width: 100%;
+}
+
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+
+ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul li{
+    list-style: none; 
+    padding: 0 23px;
+}
+
+ul li a:hover{ 
+    font-weight: bolder;
+}
+.ContactDetails {
+    color: red;
+    font-size: 200%;
+}   
+
+h4 {
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+p {
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.Complaint_img {
+    position: fixed;
+    float: right;
+    bottom: 10px;
+    right: 10px;
+}

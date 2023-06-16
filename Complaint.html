@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+        border: solid;
+        border-color: rgb(0, 0, 0);
+        background-color: rgb(157, 196, 91);
+        margin: 0% 30% 0% 30%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    input {
+         width: 70%;
+         padding: 12px;
+         border: 1px solid #ccc;
+         border-radius: 4px;
+         box-sizing: border-box;
+         margin-top: 6px;
+         margin-bottom: 16px;
+         resize: vertical;
+    }
+    input[type=submit] {
+         background-color: #04AA6D;
+         color: white;
+         padding: 12px 20px;
+         border: none;
+         border-radius: 4px;
+         cursor: pointer;
+    }
+    body {
+        background: #f3f7e3;
+    }
+
+    </style>
+<body>
+    <a href="home.html"> <img style=" height: 10%; width: 10%; display: block; margin-left: auto; margin-right: auto;" src="logo-removebg-preview.png" alt=""></a>
+    <form id="fs-frm" action="" method="post"><br><br>
+
+              <label for="full-name">Full Name</label><br><br>
+              <input type="text" name="name" id="full-name" placeholder="First and Last" required=""><br><br>
+
+              <label for="email-address">Email Address</label><br><br>
+              <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required=""><br><br>
+
+              <label for="telephone">Telephone Number (Optional)</label><br><br>
+              <input type="telephone" name="telephone" id="telephone" placeholder="+91 0123456789"><br><br>
+
+              <label for="complaint">Complaint</label><br><br>
+              <textarea rows="6" name="complaint" id="complaint" placeholder="Mess" required=""></textarea><br><br>
+              <input type="hidden" name="_subject" id="email-subject" value="Complaint Form Submission"><br><br>
+              
+              <input type="submit" value="File Complaint"><br><br>
+              <a href="">Check Your Complaint Status</a><br><br>
+          </form>
+</body>
+</html>
